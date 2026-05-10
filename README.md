@@ -1,7 +1,7 @@
 # Hi 👋, I'm Pratham L Gaikwad  
 ### A Passionate Full Stack Developer & DevOps Enthusiast 🚀  
 
-- 🌱 I'm currently learning **DevOps & Cloud Technologies**  
+- 🌱 I'm currently learning **Machine Learning and AI Technolgy**  
 - 💻 I love building scalable web apps and automating deployments  
 
 ---
