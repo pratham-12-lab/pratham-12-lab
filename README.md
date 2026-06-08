@@ -1,119 +1,144 @@
 ```md
-# Hi 👋, I'm Pratham L Gaikwad  
+<div align="center">
 
-### A Passionate Full Stack Developer & DevOps Enthusiast 🚀  
+# Namaste 🙏, I am Pratham L Gaikwad
 
-- 🌱 I'm currently learning **Machine Learning and AI Technology**  
-- 💻 I love building scalable web apps and automating deployments  
+### Full Stack Developer & DevOps Enthusiast
 
----
+<a href="https://github.com/pratham-12-lab">
+<img src="https://img.shields.io/badge/GITHUB-CONNECT-blue?style=for-the-badge&logo=github"/>
+</a>
 
-<h3 align="left">🌐 Connect with me:</h3>
+<img src="https://komarev.com/ghpvc/?username=pratham-12-lab&style=for-the-badge"/>
 
-<p align="left">  
-  <a href="https://github.com/pratham-12-lab" target="_blank">
-    <img align="center"
-         src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
-         alt="GitHub"
-         height="30"
-         width="40" />
-  </a>
-</p>
+</div>
 
 
 ---
 
-# 🚀 Engineering Projects
+<div align="center">
+
+### "Success is achieved through effort, not by mere wishes."
+
+</div>
+
+
+---
+
+
+# Professional Summary
+
+- **Full Stack Developer** | MERN Stack Development
+- **IoT Engineer** | Cloud Connected Hardware Systems
+- **DevOps Enthusiast** | AWS, Docker, Jenkins, Linux
+- **Machine Learning Explorer** | AI & ML Technologies
+
+
+---
+
+
+# The Engineering Architect
+
+I am a Computer Science Engineer with a systems-first mindset, focused on building scalable applications, IoT platforms, and automated cloud solutions.
+
+- **Full Stack Engineering:** Building scalable web applications using React, Node.js, Express.js and databases.
+- **IoT System Design:** Developing cloud-connected hardware solutions with real-time monitoring.
+- **Cloud & DevOps:** Working with AWS services, Docker containers, CI/CD pipelines and deployment automation.
+
+
+---
+
+
+# Engineering Projects
 
 
 ## 🖨️ PrintBridge — IoT Cloud Printing System (PaaS)
 
-[Live Demo](YOUR_LIVE_DEMO_LINK) | [GitHub](YOUR_GITHUB_LINK)
+[Live Demo](YOUR_LINK) | [GitHub](YOUR_LINK)
 
-**Role:** IoT Engineer & Full-Stack Developer | **4-Member Team (Team VPS)** | **May 2026**  
-🏆 **2nd Runner-Up, IoT Project Expo 2026 — IIC, AICTE**
+**Role:** IoT Engineer & Full-Stack Developer  
+**Team:** Team VPS (4 Members)  
+**May 2026**
 
-
-### 🔹 Hybrid IoT Architecture
-
-Designed a three-layer system spanning cloud (Render-hosted Node.js, Cloudinary, Razorpay, ThingSpeak), edge (Arduino UNO R4 WiFi polling server every 5 seconds via HTTPS), and local (Node.js printer agent communicating over Serial UART at 115200 baud); implemented mark-before-execute duplicate print prevention to guarantee exactly-once job processing across polling cycles.
+🏆 **2nd Runner-Up — IoT Project Expo 2026 (IIC, AICTE)**
 
 
-### 🔹 Hardware State Machine
+### Hybrid IoT Architecture
 
-Built an IR proximity sensor pipeline on the output tray with an RGB LED indicator system (green: idle, blue: printing, yellow: collect pages, red: error) and a progressive buzzer that blocks subsequent jobs until tray clearance is detected, eliminating document mixing in high-volume environments.
+Designed a three-layer architecture spanning cloud (**Node.js, Cloudinary, Razorpay, ThingSpeak**), edge (**Arduino UNO R4 WiFi HTTPS polling**), and local (**Node.js Printer Agent using Serial UART 115200 baud**) with exactly-once job processing.
 
 
-### 🔹 Real-Time Analytics & Payments
+### Hardware State Machine
 
-Integrated ThingSpeak for live IoT telemetry (revenue, queue length, colour ratio, printer status) updating every 15 seconds across customer and admin dashboards; Razorpay payment gateway with independent server-side receipt verification before any print command is dispatched.
+Built an IR sensor-based printer monitoring pipeline with RGB LED states:
+
+🟢 Idle  
+🔵 Printing  
+🟡 Collect Pages  
+🔴 Error
+
+Integrated buzzer alerts and tray detection to prevent document mixing.
+
+
+### Real-Time Analytics & Payments
+
+Integrated ThingSpeak dashboards for:
+
+- Revenue tracking
+- Queue monitoring
+- Printer status
+- Colour ratio analytics
+
+Implemented Razorpay server-side verification before print execution.
 
 
 ---
 
-<h2>🛠️ Languages & Tools</h2>
+
+# Languages & Tools
 
 
-## 🎨 Frontend Development
+## Frontend Development
 
-<p align="left">
-
-<img src="https://skillicons.dev/icons?i=html" width="40"/>
-<img src="https://skillicons.dev/icons?i=css" width="40"/>
-<img src="https://skillicons.dev/icons?i=js" width="40"/>
-<img src="https://skillicons.dev/icons?i=react" width="40"/>
-<img src="https://skillicons.dev/icons?i=bootstrap" width="40"/>
-<img src="https://skillicons.dev/icons?i=tailwind" width="40"/>
-
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap,tailwind"/>
 </p>
 
 
-## ⚙️ Backend Development
+## Backend Development
 
-<p align="left">
-
-<img src="https://skillicons.dev/icons?i=nodejs" width="40"/>
-<img src="https://skillicons.dev/icons?i=express" width="40"/>
-<img src="https://skillicons.dev/icons?i=java" width="40"/>
-<img src="https://skillicons.dev/icons?i=spring" width="40"/>
-
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,java,spring"/>
 </p>
 
 
-## 🧠 Databases
+## Database
 
-<p align="left">
-
-<img src="https://skillicons.dev/icons?i=mongodb" width="40"/>
-<img src="https://skillicons.dev/icons?i=mysql" width="40"/>
-
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql"/>
 </p>
 
 
-## ☁️ DevOps & Cloud
+## DevOps & Cloud
 
-<p align="left">
-
-<img src="https://skillicons.dev/icons?i=aws" width="40"/>
-<img src="https://skillicons.dev/icons?i=docker" width="40"/>
-<img src="https://skillicons.dev/icons?i=jenkins" width="40"/>
-<img src="https://skillicons.dev/icons?i=linux" width="40"/>
-
+<p>
+<img src="https://skillicons.dev/icons?i=aws,docker,jenkins,linux"/>
 </p>
 
 
-## 🔧 Version Control & Tools
+## Tools
 
-<p align="left">
-
-<img src="https://skillicons.dev/icons?i=git" width="40"/>
-<img src="https://skillicons.dev/icons?i=cpp" width="40"/>
-
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,cpp"/>
 </p>
 
 
 ---
 
-⭐ **"Building scalable solutions by combining Software, Cloud & IoT."**
+<div align="center">
 
+### Building scalable solutions by combining  
+### Software ⚡ Cloud ☁️ IoT 🌐
+
+</div>
 ```
