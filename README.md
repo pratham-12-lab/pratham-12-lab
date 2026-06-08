@@ -1,4 +1,4 @@
-```md
+
 <div align="center">
 
 # Namaste 🙏, I am Pratham L Gaikwad
@@ -133,7 +133,7 @@ Implemented Razorpay server-side verification before print execution.
 </p>
 
 
----
+
 
 <div align="center">
 
