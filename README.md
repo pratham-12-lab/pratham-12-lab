@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # Namaste 🙏, I am Pratham L Gaikwad
@@ -50,6 +49,30 @@ I am a Computer Science Engineer with a systems-first mindset, focused on buildi
 
 
 # Engineering Projects
+
+
+## 💼 Job Portal — Complete Full-Stack Solution
+
+[Live Demo](https://job-portal-frontend-2du2.onrender.com/) 
+
+**Role:** Full-Stack Developer  
+
+A comprehensive, enterprise-grade platform that revolutionizes the job search and recruitment process, connecting talented professionals with their dream careers.
+
+### Core Features
+- **Smart Job Matching:** Implemented advanced job search filters based on skills, location, and experience.
+- **Application Management:** Integrated secure resume upload functionality (via Cloudinary) and robust backend APIs for seamless application tracking.
+- **Responsive UI:** Designed an accessible, mobile-first interface using **React** and **Tailwind CSS**, ensuring a seamless experience across all devices.
+- **Real-Time Communication:** Powered by Socket.io for instant notifications and direct chat between candidates and recruiters.
+
+### Tech Stack & Architecture
+- **Frontend:** React, Redux Toolkit, Tailwind CSS
+- **Backend:** Node.js, Express.js, MongoDB
+- **Security & Cloud:** JWT Authentication, Role-Based Access Control (RBAC), Cloudinary (File Storage)
+- **Deployment:** Render & MongoDB Atlas
+
+
+---
 
 
 ## 🖨️ PrintBridge — IoT Cloud Printing System (PaaS)
@@ -141,4 +164,3 @@ Implemented Razorpay server-side verification before print execution.
 ### Software ⚡ Cloud ☁️ IoT 🌐
 
 </div>
-```
