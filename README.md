@@ -7,7 +7,7 @@
 <a href="https://github.com/pratham-12-lab">
 <img src="https://img.shields.io/badge/GITHUB-CONNECT-blue?style=for-the-badge&logo=github"/>
 </a>
-<a href="https://www.linkedin.com/in/pratham-l-gaikwad-a0940832b/">
+<a href="https://linkedin.com/in/pratham-l-gaikwad">
 <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-blue?style=for-the-badge&logo=linkedin"/>
 </a>
 
@@ -55,6 +55,31 @@ I am a Computer Science Engineer with a systems-first mindset, focused on buildi
 
 
 # Engineering Projects
+
+
+## 🛡️ CrimeLens — Intelligent Cybercrime Analysis & Complaint Drafting System
+
+[Live Demo](https://cyber-lens-pi.vercel.app/)
+
+🏆 **Project Expo Winner Out of 60 Teams**
+
+CrimeLens is an integrated, dual-platform cybersecurity ecosystem designed to protect Indian citizens from the rising tide of digital financial fraud, such as UPI scams, phishing, and fake online job offers. It provides a comprehensive solution covering both proactive threat prevention and reactive incident management to bridge the gap between technical vulnerability and accessible legal recourse.
+
+### Platform Ecosystem
+
+- **The Web Application (Reactive AI Layer):** An intelligent portal that helps victims automatically draft formal, legally mapped police complaints. It features a sophisticated NLP pipeline that accepts incident narratives in English, Hindi, or Kannada. Without relying on labeled training data, it translates regional inputs, classifies the fraud into one of eight categories using zero-shot inference, extracts forensic entities (like UPI IDs and transaction amounts), and maps the offense to specific provisions of the Bharatiya Nyaya Sanhita (BNS), 2023, and the IT Act, 2000. It generates a downloadable, structured PDF complaint and an evidence-preservation checklist.
+- **The Mobile Application (Proactive Rule-Based Layer):** A standalone Android application operating as a continuous foreground service. It acts as an active defense shield, utilizing native Java broadcast receivers to intercept incoming SMS and call events in real-time. It analyzes these communications offline against a heuristic engine of over 500 threat patterns in under 5 milliseconds, triggering immediate, high-priority notifications to warn users before they interact with malicious phishing links or social engineering attempts.
+
+### Technical Stack & Architecture
+
+- **Web Client (Frontend):** React 18, Vite, Tailwind CSS, React Router v6, Axios
+- **Mobile Client (Frontend & Native):** React Native 0.74 (Bare Workflow), Native Android Java (SmsReceiver, Call Modules, BroadcastReceiver, Foreground Services), @notifee/react-native
+- **Backend & APIs:** Node.js, Express.js, PDFKit
+- **AI & NLP Pipeline:** BART-MNLI (Zero-Shot Classification), NLLB-200 (Multilingual Translation), Custom Regex-based Named Entity Recognition (NER)
+- **Database, Storage & Security:** MongoDB Atlas (Mongoose ODM), JWT Auth (localStorage/AsyncStorage), bcrypt (Password Hashing)
+
+
+---
 
 
 ## 🖨️ PrintBridge — IoT Cloud Printing System (PaaS)
