@@ -150,6 +150,28 @@ A comprehensive, enterprise-grade platform that revolutionizes the job search an
 ---
 
 
+## 🚗 Rent_Ride — Full-Stack Car Rental Platform
+
+**Role:** Full-Stack Developer  
+
+A modern, full-featured car rental platform designed to streamline the vehicle booking experience with real-time availability, secure Stripe payments, and distinct role-based access for users and administrators.
+
+### Core Features
+- **End-to-End Booking Flow:** Dynamic scheduling system that prevents double-bookings, featuring customizable rental options like specific time slots and driver hiring.
+- **Admin Dashboard & Fleet Management:** Comprehensive control panel for administrators to add/edit vehicles, monitor platform-wide bookings, and track revenue.
+- **Secure Payment Integration:** Seamless integration with Stripe API ensures safe and reliable checkout transactions.
+- **Interactive UI & Real-Time Validation:** Utilizes Ant Design components and Redux state management for a responsive, predictable user experience.
+
+### Tech Stack & Architecture
+- **Frontend:** React, Redux, Ant Design, React Router, AOS
+- **Backend:** Node.js, Express.js, MongoDB, Mongoose
+- **Security & Payments:** Stripe API, JWT Authentication, Password Hashing
+- **Deployment & Architecture:** RESTful API design, environment variables (dotenv), Heroku configured
+
+
+---
+
+
 # Languages & Tools
 
 
