@@ -7,6 +7,12 @@
 <a href="https://github.com/pratham-12-lab">
 <img src="https://img.shields.io/badge/GITHUB-CONNECT-blue?style=for-the-badge&logo=github"/>
 </a>
+<a href="https://linkedin.com/in/pratham-l-gaikwad">
+<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-blue?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<br/>
+<br/>
 
 <img src="https://komarev.com/ghpvc/?username=pratham-12-lab&style=for-the-badge"/>
 
