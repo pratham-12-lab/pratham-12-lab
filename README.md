@@ -82,7 +82,7 @@ CrimeLens is an integrated, dual-platform cybersecurity ecosystem designed to pr
 ---
 
 
-## 🖨️ PrintBridge — IoT Cloud Printing System (PaaS)
+## 🖨️ PrintBridge — Cloud-to-Edge Remote Printing System (PaaS)
 
 [Live Demo](https://printbridge-by-vps.onrender.com/) 
 
@@ -92,14 +92,15 @@ CrimeLens is an integrated, dual-platform cybersecurity ecosystem designed to pr
 
 🏆 **2nd Runner-Up — IoT Project Expo 2026 (IIC, AICTE)**
 
+### System Performance & Reliability
+- Reduced end-to-end remote print latency to under 30 seconds by architecting a Node.js/Express cloud backend that dispatches jobs through an automated queue to a local edge daemon in real time.
+- Designed a fault-tolerant edge agent with multi-OS driver fallbacks, mutex locks to eliminate race conditions on shared hardware, and exponential-backoff retries for resilience under concurrent load.
+- Eliminated server out-of-memory crashes with a stream-based rendering pipeline and zero-retention file lifecycle; instrumented real-time health monitoring via ThingSpeak telemetry.
 
 ### Hybrid IoT Architecture
-
 Designed a three-layer architecture spanning cloud (**Node.js, Cloudinary, Razorpay, ThingSpeak**), edge (**Arduino UNO R4 WiFi HTTPS polling**), and local (**Node.js Printer Agent using Serial UART 115200 baud**) with exactly-once job processing.
 
-
 ### Hardware State Machine
-
 Built an IR sensor-based printer monitoring pipeline with RGB LED states:
 
 🟢 Idle  
@@ -109,17 +110,17 @@ Built an IR sensor-based printer monitoring pipeline with RGB LED states:
 
 Integrated buzzer alerts and tray detection to prevent document mixing.
 
-
 ### Real-Time Analytics & Payments
-
 Integrated ThingSpeak dashboards for:
-
 - Revenue tracking
 - Queue monitoring
 - Printer status
 - Colour ratio analytics
 
 Implemented Razorpay server-side verification before print execution.
+
+### Tech Stack
+- Node.js, Express, Sharp, PDFKit, ThingSpeak
 
 
 ---
