@@ -7,7 +7,7 @@
 <a href="https://github.com/pratham-12-lab">
 <img src="https://img.shields.io/badge/GITHUB-CONNECT-blue?style=for-the-badge&logo=github"/>
 </a>
-<a href="https://linkedin.com/in/pratham-l-gaikwad">
+<a href="https://www.linkedin.com/in/pratham-l-gaikwad-a0940832b/">
 <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-blue?style=for-the-badge&logo=linkedin"/>
 </a>
 
